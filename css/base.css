@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 :root {
     --cor-primaira: #ffffff;
     --cor-secundaria: #5F6A74;
     --cor-terciaria: #2C88D9;
     --cor-borda: #C7D2DC;
+}
+
+*{
+    font-family: 'QuickSand', Courier, monospace;
 }
 
 h1 {
