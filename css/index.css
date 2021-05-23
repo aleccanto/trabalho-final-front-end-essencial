@@ -1,0 +1,33 @@
+#texto {
+    padding: 20px;
+}
+
+#img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+label {
+    margin-top: 20px;
+}
+
+#interno {
+    padding: 20px;
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    height: auto;
+}
+
+p{
+    padding: 0px 12% 0px 12%;
+    margin: 0;
+}
+

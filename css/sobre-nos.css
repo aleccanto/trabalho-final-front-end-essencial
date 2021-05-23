@@ -1,0 +1,9 @@
+img {
+    width: 300px;
+    height: auto;
+}
+
+.container>div,
+h1 {
+    margin-bottom: 20px;
+}

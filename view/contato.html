@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato</title>
+        <!-- BootStrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+        <!-- CSS próprio -->
+        <link rel="stylesheet" href="./../css/base.css">
+        <link rel="stylesheet" href="./../css/contato.css">
+    </head>
+
+    <body">
+    <header>
+        <div class="container" id="nav-container">
+            <nav class="navbar navbar-expand-sm fixed-top">
+                <a href="#" class="navbar-brand" title="Microsoft">
+                    <img id="logo"
+                        src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"
+                        alt="Microsoft">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navar-links"
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="toogle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-start" id="navbar-links">
+                    <div class="navbar-nav">
+                        <a href="./../index.html" class="nav-item nav-link" id="inicio-menu">Inicio</a>
+                        <a href="./sobre-nos.html" class="nav-item nav-link" id="sobre-menu">Sobre nós</a>
+                        <a href="" class="nav-item nav-link pagina-selecionada" id="contato-menu">Contato</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="principal">
+            <div class="text-contato">
+                <div>
+                    <h1>Precisa de Ajuda?</h1>
+                </div>
+                <div class="box-contato">
+                    <form class="d-flex flex-column nome-email">
+                        <h2>Nós envie uma mensagem, e entraremos em contato em breve.</h2>
+                        <label for="nome">Nome</label>
+                        <input id="nome" type="text">
+                        <label for="email">E-mail</label>
+                        <input id="email" spellcheck="true" type="email">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem"></textarea>
+                        <button type="button" onclick="alertaDeEnvio()" class="btn btn-primary"> Enviar </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="container">
+        <footer>
+            <div class="text-center fixed-bottom">
+                <p><em>Turma dos feras Serratec</em>
+                    <p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- BootStrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Script próprio -->
+    <script src="./../js/contato.js"></script>
+    </body>
+
+</html>
